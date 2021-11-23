@@ -1,0 +1,51 @@
+{
+  "children": [
+    {
+      "type": "file",
+      "name": "META6.json"
+    },
+    {
+      "type": "file",
+      "name": "Changes"
+    },
+    {
+      "type": "file",
+      "name": "LICENCE"
+    },
+    {
+      "type": "directory",
+      "children": [
+        {
+          "type": "file",
+          "name": "010-use.t"
+        },
+        {
+          "name": "030-basic.t",
+          "type": "file"
+        },
+        {
+          "type": "file",
+          "name": "001-meta.t"
+        }
+      ],
+      "purpose": null,
+      "name": "t"
+    },
+    {
+      "type": "directory",
+      "children": [
+        {
+          "name": "Ikoko.rakumod",
+          "type": "file"
+        }
+      ],
+      "name": "lib",
+      "purpose": null
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    }
+  ],
+  "type": "layout"
+}

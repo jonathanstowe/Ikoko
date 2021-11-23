@@ -2,6 +2,8 @@
 
 Simple Read-Only interface to the AWS Secrets Manager
 
+[![CI](https://github.com/jonathanstowe/Ikoko/actions/workflows/main.yml/badge.svg)](https://github.com/jonathanstowe/Ikoko/actions/workflows/main.yml)
+
 ## Synopsis
 
 ```raku
