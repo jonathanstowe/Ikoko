@@ -18,6 +18,9 @@ jobs:
 
     - name: Raku version
       run: raku -v
+        
+    - name: Install lib dependecies
+      run: apt-get -qq update && apt-get -qq install -y libssl1.1 libssl-dev openssl
 
     - name: Install dependencies
       run: zef install --deps-only --/test --test-depends .
