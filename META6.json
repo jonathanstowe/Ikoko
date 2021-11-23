@@ -1,0 +1,37 @@
+{
+  "name": "Ikoko",
+  "description": "Simple interface to AWS Secrets Manager",
+  "version": "0.0.1",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "support": {
+    "source": "https://github.com/jonathanstowe/Ikoko.git",
+    "email": "jns+gh@gellyfish.co.uk"
+  },
+  "depends": {
+     "runtime" : {
+        "requires" : [
+         "Cro::HTTP::Client",
+         "WebService::AWS::Auth::V4",
+         "JSON::Class",
+         "Cro::HTTP::BodySerializers",
+         "Cro::BodyParser",
+         "JSON::Name"
+        ]
+     }
+  },
+  "tags": [
+     "AWS", "secretsmanager", "credentials"
+  ],
+  "source-url": "https://github.com/jonathanstowe/Ikoko.git",
+  "raku": "6.d",
+  "provides": {
+     "Ikoko" : "lib/Ikoko.rakumod"
+  },
+  "license": "Artistic-2.0",
+  "meta-version": "2",
+  "resources": [
+  ]
+}
