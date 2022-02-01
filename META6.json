@@ -1,7 +1,7 @@
 {
   "name": "Ikoko",
   "description": "Simple interface to AWS Secrets Manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"

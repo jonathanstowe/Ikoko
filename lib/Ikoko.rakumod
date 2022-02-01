@@ -93,6 +93,7 @@ class Ikoko {
     method make-request(Str $target, Str $body --> Promise ) {
         my %headers = $.headers( $target );
         %headers<Authorization> = $.auth-header($body, %headers);
+        %headers<Host>:delete;
         $.request('POST', $.uri, :%headers, :$body);
     }
 
