@@ -1,37 +1,43 @@
 {
+  "tags": [
+    "AWS",
+    "secretsmanager",
+    "credentials"
+  ],
+  "source-url": "https://github.com/jonathanstowe/Ikoko.git",
   "name": "Ikoko",
+  "raku": "6.d",
+  "provides": {
+    "Ikoko": "lib/Ikoko.rakumod"
+  },
   "description": "Simple interface to AWS Secrets Manager",
-  "version": "0.0.2",
-  "auth": "github:jonathanstowe",
+  "auth": "zef:jonathanstowe",
+  "build-depends": [
+  ],
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
-  "support": {
-    "source": "https://github.com/jonathanstowe/Ikoko.git",
-    "email": "jns+gh@gellyfish.co.uk"
-  },
-  "depends": {
-     "runtime" : {
-        "requires" : [
-         "Cro::HTTP::Client",
-         "WebService::AWS::Auth::V4",
-         "JSON::Class",
-         "Cro::HTTP::BodySerializers",
-         "Cro::BodyParser",
-         "JSON::Name"
-        ]
-     }
-  },
-  "tags": [
-     "AWS", "secretsmanager", "credentials"
+  "resources": [
   ],
-  "source-url": "https://github.com/jonathanstowe/Ikoko.git",
-  "raku": "6.d",
-  "provides": {
-     "Ikoko" : "lib/Ikoko.rakumod"
+  "test-depends": [
+  ],
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Ikoko.git"
   },
   "license": "Artistic-2.0",
   "meta-version": "2",
-  "resources": [
-  ]
+  "version": "0.0.3",
+  "depends": {
+    "runtime": {
+      "requires": [
+        "Cro::HTTP::Client",
+        "WebService::AWS::Auth::V4",
+        "JSON::Class",
+        "Cro::HTTP::BodySerializers",
+        "Cro::BodyParser",
+        "JSON::Name"
+      ]
+    }
+  }
 }
